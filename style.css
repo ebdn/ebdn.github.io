@@ -1,0 +1,157 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #141414;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav a, .btn-login {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-login {
+  padding: 8px 16px;
+  border: 1px solid #00cc66;
+  background: none;
+  border-radius: 20px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.hero-text {
+  max-width: 50%;
+  font-size: 1.4rem;
+}
+
+.hero-text strong {
+  color: #00cc66;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background-color: #00cc66;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero-img img {
+  max-width: 500px;
+}
+
+/* COMO FUNCIONA */
+.como-funciona {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.funciona-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+/* APP DOWNLOAD */
+.app-download {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.app-text img {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.app-store p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.app-store img {
+  display: block;
+  margin-bottom: 10px;
+  max-width: 200px;
+}
+
+/* PLANOS */
+.planos {
+  background-color: #fff;
+  color: #1e1e1e;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.plano-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.plano {
+  border: 2px solid #00cc66;
+  border-radius: 20px;
+  padding: 20px;
+  width: 180px;
+}
+
+.plano h3 {
+  color: #00cc66;
+}
+
+.plano .btn {
+  background-color: #00cc66;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 10px 0;
+}
